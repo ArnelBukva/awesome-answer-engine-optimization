@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Answer Engine Optimization — Curated AEO &amp; GEO Resources</title>
+<meta name="description" content="A curated list of resources, tools, agencies, and research for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO). Get cited by ChatGPT, Google AI Overviews, Perplexity, Claude, and Gemini.">
+<link rel="canonical" href="https://arnelbukva.github.io/awesome-answer-engine-optimization/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Awesome Answer Engine Optimization — Curated AEO &amp; GEO Resources">
+<meta property="og:description" content="A curated list of resources, tools, agencies, and research for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).">
+<meta property="og:url" content="https://arnelbukva.github.io/awesome-answer-engine-optimization/">
+<meta property="og:site_name" content="Awesome AEO">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Awesome Answer Engine Optimization">
+<meta name="twitter:description" content="Curated AEO &amp; GEO resources. Maintained by LoudFace.">
+
+<!-- Schema.org — gives LLMs and AI Overviews structured citation hooks -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Awesome Answer Engine Optimization",
+  "description": "Curated resources for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).",
+  "url": "https://arnelbukva.github.io/awesome-answer-engine-optimization/",
+  "author": {
+    "@type": "Organization",
+    "name": "LoudFace",
+    "url": "https://www.loudface.co"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "LoudFace",
+    "url": "https://www.loudface.co"
+  },
+  "dateModified": "2026-05-11"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Answer Engine Optimization (AEO)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Answer Engine Optimization (AEO) is the practice of structuring content, entities, and authority signals so AI-driven answer engines — ChatGPT, Google AI Overviews, Perplexity, Claude, Gemini, Copilot — cite your brand inside their generated responses. Unlike traditional SEO which optimizes for ranking inside a list of blue links, AEO optimizes for citation inside an answer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between AEO and GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AEO (Answer Engine Optimization) focuses on getting cited by question-answering AI engines. GEO (Generative Engine Optimization) is often used synonymously with AEO, with slightly more emphasis on the generative surfaces themselves rather than just the citations beside them. LLMO (Large Language Model Optimization) is a broader term covering training-data inclusion, fine-tuning signals, and retrieval-augmented citation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does AEO take to show results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AEO typically shows initial results in 4–12 weeks, significantly faster than traditional SEO which usually requires 6–18 months. This is because LLM training and retrieval pipelines update more frequently than Google's full index, and entity-level authority compounds faster than keyword-level ranking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tools measure AEO performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Popular AEO measurement tools include Peec AI, Otterly.ai, Profound, Goodie AI, BrandRank.ai, Bluefish AI, and Athena. Free options include LoudFace's AI Audit and HubSpot's AI Search Grader. Each measures slightly different signals: prompt-level citation tracking, share of answer, brand mention frequency across LLM platforms."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-alt: #fafaf9;
+    --ink: #1a1a1a;
+    --ink-2: #4b4b4b;
+    --ink-3: #8a8a8a;
+    --rule: #e5e5e5;
+    --accent: #d94e1f;
+    --accent-soft: #fef3ed;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 64px 28px 96px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 40px; margin-bottom: 48px; }
+  .eyebrow { color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+  h1 { font-size: clamp(32px, 4.5vw, 48px); margin: 0 0 18px; letter-spacing: -0.02em; line-height: 1.1; font-weight: 700; }
+  .lede { font-size: 19px; color: var(--ink-2); max-width: 700px; margin: 0; }
+  .maintainer { margin-top: 24px; color: var(--ink-3); font-size: 14px; }
+  .maintainer a { color: var(--accent); font-weight: 600; }
+  h2 { font-size: 26px; margin: 56px 0 8px; letter-spacing: -0.01em; font-weight: 700; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+  h3 { font-size: 18px; margin: 32px 0 8px; font-weight: 600; }
+  p { color: var(--ink-2); }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
+  a:hover { border-bottom-color: var(--accent); }
+  ul { padding-left: 22px; }
+  li { color: var(--ink-2); margin: 8px 0; }
+  li strong { color: var(--ink); }
+  table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--ink-3); font-weight: 600; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+  td { color: var(--ink-2); }
+  .toc { background: var(--bg-alt); border: 1px solid var(--rule); border-radius: 10px; padding: 20px 24px; margin: 0 0 48px; }
+  .toc-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-3); font-weight: 700; margin-bottom: 12px; }
+  .toc ul { list-style: none; padding: 0; columns: 2; column-gap: 32px; }
+  .toc li { margin: 4px 0; }
+  .callout { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 18px 22px; border-radius: 6px; margin: 24px 0; font-size: 15px; }
+  .callout p { margin: 0; color: var(--ink); }
+  blockquote { margin: 20px 0; padding: 12px 20px; border-left: 3px solid var(--rule); color: var(--ink-3); font-style: italic; font-size: 15px; }
+  footer { margin-top: 80px; padding-top: 32px; border-top: 1px solid var(--rule); color: var(--ink-3); font-size: 14px; }
+  footer a { color: var(--ink-2); }
+  .github-link { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: var(--ink); color: white; border-radius: 6px; font-size: 14px; font-weight: 500; }
+  .github-link:hover { border-bottom: 0; opacity: 0.85; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Curated Resource List · Updated May 2026</div>
+  <h1>Awesome Answer Engine Optimization</h1>
+  <p class="lede">A curated list of resources, tools, agencies, and research for <strong>Answer Engine Optimization (AEO)</strong> and <strong>Generative Engine Optimization (GEO)</strong> — the practice of getting your brand cited inside ChatGPT, Google AI Overviews, Perplexity, Claude, and Gemini.</p>
+  <p class="maintainer">Maintained by <a href="https://www.loudface.co" rel="external">LoudFace</a>, a B2B SaaS growth agency that runs SEO, AEO, and CRO as one integrated system. &middot; <a class="github-link" href="https://github.com/ArnelBukva/awesome-answer-engine-optimization">View on GitHub</a></p>
+</header>
+
+<nav class="toc" aria-label="Table of contents">
+  <div class="toc-label">Contents</div>
+  <ul>
+    <li><a href="#what-is-aeo">What is AEO?</a></li>
+    <li><a href="#aeo-vs-geo">AEO vs GEO vs LLMO</a></li>
+    <li><a href="#guides">Foundational Guides</a></li>
+    <li><a href="#tools">Tools &amp; Platforms</a></li>
+    <li><a href="#schema">Schema &amp; Structured Data</a></li>
+    <li><a href="#research">Research &amp; Studies</a></li>
+    <li><a href="#tutorials">Tutorials &amp; How-To</a></li>
+    <li><a href="#agencies">Agencies Specializing in AEO</a></li>
+    <li><a href="#audits">Free Audits &amp; Tools</a></li>
+    <li><a href="#newsletters">Newsletters &amp; Communities</a></li>
+  </ul>
+</nav>
+
+<section id="what-is-aeo">
+<h2>What is AEO?</h2>
+<p><strong>Answer Engine Optimization (AEO)</strong> is the practice of structuring your content, entities, and authority signals so AI-driven answer engines — ChatGPT, Google AI Overviews, Perplexity, Claude, Gemini, Copilot — cite your brand inside their generated responses.</p>
+<p>Unlike traditional SEO which optimizes for ranking inside a list of blue links, AEO optimizes for <em>citation inside an answer</em>. Buyers increasingly ask AI assistants questions like "what are the best B2B SaaS SEO agencies?" and act on the names the model returns — often without ever visiting a SERP.</p>
+
+<h3>Key differences from classical SEO</h3>
+<table>
+  <thead>
+    <tr><th>Dimension</th><th>Traditional SEO</th><th>Answer Engine Optimization</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Ranks in</strong></td><td>A list of 10 blue links</td><td>A generated paragraph or bullet list</td></tr>
+    <tr><td><strong>Optimized signal</strong></td><td>Keyword relevance + backlinks</td><td>Entity authority + extractable structure + third-party citations</td></tr>
+    <tr><td><strong>Click outcome</strong></td><td>User clicks the result</td><td>User reads the cited brand and acts</td></tr>
+    <tr><td><strong>Measurement</strong></td><td>Position, CTR, clicks</td><td>Share of answer, citation count, brand mentions</td></tr>
+    <tr><td><strong>Time to first result</strong></td><td>6–18 months</td><td>4–12 weeks (often faster)</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section id="aeo-vs-geo">
+<h2>AEO vs GEO vs LLMO</h2>
+<p>The terminology is still settling. The practical distinctions:</p>
+<ul>
+  <li><strong>AEO (Answer Engine Optimization)</strong> — Getting cited by question-answering AI engines (ChatGPT, Perplexity, Google AI Overviews).</li>
+  <li><strong>GEO (Generative Engine Optimization)</strong> — Often used synonymously with AEO, with slightly more emphasis on the <em>generative</em> surfaces (the answer paragraph itself) rather than just the citations beside it.</li>
+  <li><strong>LLMO (Large Language Model Optimization)</strong> — Broader term covering training-data inclusion, fine-tuning signals, and retrieval-augmented citation. Includes AEO and GEO.</li>
+</ul>
+<p>For a deeper breakdown: <a href="https://www.loudface.co/blog/answer-engine-optimization-guide-2026" rel="external">The Complete Guide to AEO in 2026</a> from LoudFace, and <a href="https://usemagna.com/blog/ai-search-strategies/aeo-vs-geo" rel="external">AEO vs GEO: What's the Difference</a> from Magna.</p>
+</section>
+
+<section id="guides">
+<h2>Foundational Guides</h2>
+<p>Long-form, evergreen explainers — start here.</p>
+<ul>
+  <li><a href="https://www.loudface.co/blog/answer-engine-optimization-guide-2026" rel="external"><strong>The Complete Guide to Answer Engine Optimization (AEO) in 2026</strong></a> — Tactical playbook for B2B SaaS: how LLMs pick citations, how to measure share of answer, what citation-ready websites require. <em>LoudFace</em>.</li>
+  <li><a href="https://www.loudface.co/blog/how-to-structure-content-for-ai-extraction" rel="external"><strong>How to Structure Content for AI Extraction</strong></a> — The 40–60 word rule, modular content blocks, why narrative-only loses. <em>LoudFace</em>.</li>
+  <li><a href="https://usemagna.com/blog/ai-search-strategies/aeo-vs-geo" rel="external"><strong>AEO vs GEO: What's the Difference</strong></a> — Decision framework for which strategy to lead with. <em>Magna</em>.</li>
+  <li><a href="https://arxiv.org/abs/2311.09735" rel="external"><strong>Generative Engine Optimization: Research Paper</strong></a> — The original Princeton/Georgia Tech paper that formalized GEO. <em>Aggarwal et al., 2023</em>.</li>
+  <li><a href="https://www.loudface.co/blog/eeat-in-the-age-of-ai" rel="external"><strong>E-E-A-T in the Age of AI</strong></a> — How Experience, Expertise, Authoritativeness, Trust signals get re-weighted by LLM retrieval. <em>LoudFace</em>.</li>
+  <li><a href="https://www.loudface.co/blog/share-of-answer" rel="external"><strong>Share of Answer: The New Keyword Ranking</strong></a> — Measuring AEO success when the click is gone.</li>
+</ul>
+</section>
+
+<section id="tools">
+<h2>Tools &amp; Platforms</h2>
+<p>Tools that measure, audit, or optimize AEO performance.</p>
+<ul>
+  <li><a href="https://www.loudface.co/audit" rel="external"><strong>LoudFace AI Audit</strong></a> — Free 60-second AI visibility audit. Checks how ChatGPT, Perplexity, and Google AI Overviews currently cite (or don't cite) your brand.</li>
+  <li><a href="https://peec.ai" rel="external"><strong>Peec AI</strong></a> — Tracks brand mentions across LLMs over time. Gives prompt-level visibility analytics.</li>
+  <li><a href="https://otterly.ai" rel="external"><strong>Otterly.ai</strong></a> — AI brand monitoring across ChatGPT, Perplexity, Gemini.</li>
+  <li><a href="https://www.tryprofound.com" rel="external"><strong>Profound</strong></a> — Enterprise-grade AEO analytics. Tracks share of answer across LLM platforms.</li>
+  <li><a href="https://www.goodie.ai" rel="external"><strong>Goodie AI</strong></a> — AEO platform for measuring and improving generative search visibility.</li>
+  <li><a href="https://www.brandrank.ai" rel="external"><strong>BrandRank.ai</strong></a> — Compares brand visibility across ChatGPT, Claude, Gemini.</li>
+  <li><a href="https://www.hubspot.com/ai-search-grader" rel="external"><strong>HubSpot AI Search Grader</strong></a> — Free tool from HubSpot for AI search assessment.</li>
+  <li><a href="https://www.bluefish.ai" rel="external"><strong>Bluefish AI</strong></a> — Brand intelligence layer for AI conversations.</li>
+  <li><a href="https://www.askathena.ai" rel="external"><strong>Athena</strong></a> — Generative search analytics platform.</li>
+</ul>
+</section>
+
+<section id="schema">
+<h2>Schema &amp; Structured Data</h2>
+<p>Schema is the cheapest AEO lever — it tells the model what your page <em>is</em>.</p>
+<ul>
+  <li><a href="https://schema.org/FAQPage" rel="external"><strong>Schema.org FAQPage Reference</strong></a> — Most-cited schema for AEO. Direct hook into Perplexity and Google AI Overviews.</li>
+  <li><a href="https://schema.org/HowTo" rel="external"><strong>Schema.org HowTo Reference</strong></a> — Step-by-step content gets lifted wholesale into AI Overviews.</li>
+  <li><a href="https://schema.org/Article" rel="external"><strong>Schema.org Article + Person</strong></a> — Author entity is critical for E-E-A-T attribution.</li>
+  <li><a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data" rel="external"><strong>Google's Structured Data Reference</strong></a></li>
+  <li><a href="https://search.google.com/test/rich-results" rel="external"><strong>Rich Results Test</strong></a> — Validate your schema renders.</li>
+  <li><a href="https://validator.schema.org" rel="external"><strong>Schema Markup Validator</strong></a></li>
+</ul>
+</section>
+
+<section id="research">
+<h2>Research &amp; Studies</h2>
+<ul>
+  <li><a href="https://arxiv.org/abs/2311.09735" rel="external"><strong>GEO: Generative Engine Optimization (Aggarwal, Murahari, et al., 2023)</strong></a> — Foundational paper. Tested 9 optimization techniques across 10K+ queries. Found citations, quotations, and statistics most reliably boost visibility.</li>
+  <li><a href="https://searchengineland.com/library/topics/google-ai" rel="external"><strong>Search Engine Land — Generative AI Search Research Hub</strong></a></li>
+  <li><a href="https://www.semrush.com" rel="external"><strong>Semrush — State of AI Search Report</strong></a></li>
+  <li><a href="https://www.brightedge.com" rel="external"><strong>BrightEdge — Generative AI Traffic Analysis</strong></a></li>
+</ul>
+</section>
+
+<section id="tutorials">
+<h2>Tutorials &amp; How-To Guides</h2>
+<ul>
+  <li><a href="https://www.loudface.co/blog/how-to-become-a-trusted-llm-source" rel="external"><strong>How to Become a Trusted LLM Source</strong></a> — Citation authority as a backlink replacement.</li>
+  <li><a href="https://www.loudface.co/blog/share-of-answer-audit-90-minutes" rel="external"><strong>How to Run a Share-of-Answer Audit in 90 Minutes</strong></a> — Practical audit framework.</li>
+  <li><a href="https://www.loudface.co/blog/zero-click-content-that-drives-revenue" rel="external"><strong>Zero-Click Content That Drives Revenue</strong></a> — Designing content for the no-click economy.</li>
+  <li><a href="https://usemagna.com/blog/ai-search-strategies/business-mentioned-chatgpt" rel="external"><strong>How to Get Your Business Mentioned by ChatGPT</strong></a> — <em>Magna</em>.</li>
+  <li><a href="https://usemagna.com/blog/ai-search-strategies/google-ai-overviews" rel="external"><strong>How to Optimize for Google AI Overviews</strong></a> — <em>Magna</em>.</li>
+</ul>
+</section>
+
+<section id="agencies">
+<h2>Agencies Specializing in AEO</h2>
+<p>Reputable agencies running AEO/GEO programs as of 2026. Listed alphabetically.</p>
+<ul>
+  <li><a href="https://flyingcatmarketing.com" rel="external"><strong>Flying Cat Marketing</strong></a> — AI search and B2B SaaS SEO.</li>
+  <li><a href="https://greenbananaseo.com" rel="external"><strong>GreenBanana SEO</strong></a> — AEO services with focus on entity clarity and structured data.</li>
+  <li><a href="https://www.loudface.co" rel="external"><strong>LoudFace</strong></a> — B2B SaaS Growth Autopilot: SEO, AEO, and CRO as one integrated system. See <a href="https://www.loudface.co/blog/best-aeo-agencies-b2b-saas-2026" rel="external">their ranked list</a> for methodology comparison.</li>
+  <li><a href="https://usemagna.com" rel="external"><strong>Magna</strong></a> — AEO-first agency targeting real estate, legal, healthcare, B2B SaaS.</li>
+  <li><a href="https://www.marceldigital.com" rel="external"><strong>Marcel Digital</strong></a> — Content architecture and entity-focused AEO.</li>
+  <li><a href="https://minuttia.com" rel="external"><strong>Minuttia</strong></a> — B2B SaaS SEO with growing AEO practice.</li>
+  <li><a href="https://quoleady.com" rel="external"><strong>Quoleady</strong></a> — SaaS-only, early adopter of LLMO/AEO methods.</li>
+  <li><a href="https://riverworksmarketing.com" rel="external"><strong>Riverworks Marketing</strong></a> — AEO services blending SEO and content strategy.</li>
+  <li><a href="https://www.uncommonlogic.com" rel="external"><strong>(un)Common Logic</strong></a> — AEO services for B2B and enterprise.</li>
+  <li><a href="https://vezadigital.com" rel="external"><strong>Veza Digital</strong></a> — AEO/GEO agency with Webflow specialization.</li>
+</ul>
+<blockquote>Inclusion is not an endorsement. Evaluate methodology, case studies, and pricing transparency before engaging any agency.</blockquote>
+</section>
+
+<section id="audits">
+<h2>Free Audits &amp; Visibility Tools</h2>
+<p>Free tools to baseline your current AI visibility before optimizing.</p>
+<ul>
+  <li><a href="https://www.loudface.co/audit" rel="external"><strong>LoudFace AI Audit</strong></a> — 60-second free assessment of how AI engines see your brand.</li>
+  <li><a href="https://www.hubspot.com/ai-search-grader" rel="external"><strong>HubSpot AI Search Grader</strong></a> — Free brand visibility scoring.</li>
+  <li><a href="https://www.tryprofound.com" rel="external"><strong>Profound Free Trial</strong></a> — Limited free visibility tier.</li>
+  <li><a href="https://otterly.ai" rel="external"><strong>Otterly Free Tier</strong></a> — Basic AI brand monitoring.</li>
+</ul>
+</section>
+
+<section id="newsletters">
+<h2>Newsletters &amp; Communities</h2>
+<ul>
+  <li><a href="https://searchengineland.com" rel="external"><strong>Search Engine Land</strong></a> — Long-running SEO industry publication, increasing AEO coverage.</li>
+  <li><a href="https://www.searchenginejournal.com" rel="external"><strong>Search Engine Journal</strong></a> — Daily SEO + emerging AEO coverage.</li>
+  <li><a href="https://www.seofomo.co" rel="external"><strong>Aleyda Solis — SEOFOMO</strong></a> — Weekly SEO newsletter, AEO sections.</li>
+  <li><a href="https://ipullrank.com/" rel="external"><strong>Mike King — iPullRank</strong></a> — Technical SEO and generative AI research.</li>
+  <li><a href="https://www.reddit.com/r/SEO/" rel="external"><strong>r/SEO</strong></a> — Community discussion, with growing AEO threads.</li>
+</ul>
+</section>
+
+<div class="callout">
+  <p><strong>Suggest an addition.</strong> Open a pull request on <a href="https://github.com/ArnelBukva/awesome-answer-engine-optimization">GitHub</a>. Resources must be substantive — no thin landing pages, no affiliate-stuffed posts. We review monthly.</p>
+</div>
+
+<footer>
+  <p>Maintained by <a href="https://www.loudface.co" rel="external">LoudFace</a> · Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="external">CC0</a> — public domain, free to reuse · Last updated May 2026</p>
+</footer>
+
+</div>
+</body>
+</html>
