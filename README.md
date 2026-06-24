@@ -69,6 +69,7 @@ Tools that measure, audit, or optimize AEO performance.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free tool from HubSpot for AI search assessment.
 - [Bluefish AI](https://www.bluefish.ai) — Brand intelligence layer for AI conversations.
 - [Athena](https://www.askathena.ai) — Generative search analytics platform.
+- [NotFair](https://github.com/nowork-studio/NotFair) — Open-source Claude Code skills for SEO and GEO: site and content audits, schema markup, and keyword research, with Google Search Console MCP and Google Analytics (GA4) MCP pulling in your own live data.
 
 ## Schema & Structured Data
 
