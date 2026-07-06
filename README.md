@@ -53,6 +53,7 @@ Long-form, evergreen explainers — start here.
 - [How to Structure Content for AI Extraction](https://www.loudface.co/blog/how-to-structure-content-for-ai-extraction) — The 40–60 word rule, modular content blocks, why narrative-only loses. *LoudFace*.
 - [AEO vs GEO: What's the Difference](https://usemagna.com/blog/ai-search-strategies/aeo-vs-geo) — Decision framework for which strategy to lead with. *Magna*.
 - [Generative Engine Optimization: Research Paper](https://arxiv.org/abs/2311.09735) — The original Princeton/Georgia Tech paper that formalized GEO. *Aggarwal et al., 2023*.
+- [Public evidence beats prompt theater in SaaS AEO](https://telegra.ph/Public-evidence-beats-prompt-theater-in-SaaS-AEO-07-04) — A practical note on checking crawlable pricing, comparison, proof, docs, and trust evidence before running prompt tests. *AnswerLens*.
 - [E-E-A-T in the Age of AI](https://www.loudface.co/blog/eeat-in-the-age-of-ai) — How Experience, Expertise, Authoritativeness, Trust signals get re-weighted by LLM retrieval. *LoudFace*.
 - [Share of Answer: The New Keyword Ranking](https://www.loudface.co/blog/share-of-answer) — Measuring AEO success when the click is gone.
 
