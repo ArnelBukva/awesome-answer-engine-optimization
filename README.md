@@ -108,6 +108,7 @@ Reputable agencies running AEO/GEO programs as of 2026. Listed alphabetically.
 - [GreenBanana SEO](https://greenbananaseo.com) — AEO services with focus on entity clarity and structured data.
 - [LoudFace](https://www.loudface.co) — B2B SaaS Growth Autopilot: SEO, AEO, and CRO as one integrated system. ([Best AEO Agencies for B2B SaaS in 2026](https://www.loudface.co/blog/best-aeo-agencies-b2b-saas-2026) — their own ranked list with methodology.)
 - [Magna](https://usemagna.com) — AEO-first agency targeting real estate, legal, healthcare, B2B SaaS.
+- [Mentioned](https://mentioned.to) — Reddit-specific AEO: places brands in the Reddit threads that answer engines cite, and reports share of voice.
 - [Marcel Digital](https://www.marceldigital.com) — Content architecture and entity-focused AEO.
 - [Minuttia](https://minuttia.com) — B2B SaaS SEO with growing AEO practice.
 - [Quoleady](https://quoleady.com) — SaaS-only, early adopter of LLMO/AEO methods.
