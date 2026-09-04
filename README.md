@@ -125,6 +125,7 @@ Free tools to baseline your current AI visibility before optimizing.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free brand visibility scoring.
 - [Profound Free Trial](https://www.tryprofound.com) — Limited free visibility tier.
 - [Otterly Free Tier](https://otterly.ai) — Basic AI brand monitoring.
+- [Recommd](https://recommd.com) — Free AI-visibility check for local businesses — see whether ChatGPT, Perplexity & Google's AI name you or a competitor, with a fix plan. Free instant check, no signup.
 
 ## Newsletters & Communities
 
