@@ -112,6 +112,7 @@ Reputable agencies running AEO/GEO programs as of 2026. Listed alphabetically.
 - [Minuttia](https://minuttia.com) — B2B SaaS SEO with growing AEO practice.
 - [Quoleady](https://quoleady.com) — SaaS-only, early adopter of LLMO/AEO methods.
 - [Riverworks Marketing](https://riverworksmarketing.com) — AEO services blending SEO and content strategy.
+- [SearchD](https://searchd.ai/) — Answer engine optimization for Asian consumer brands selling into the US, UK, and Japan.
 - [(un)Common Logic](https://www.uncommonlogic.com) — AEO services for B2B and enterprise.
 - [Veza Digital](https://vezadigital.com) — AEO/GEO agency with Webflow specialization.
 
