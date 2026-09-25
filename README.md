@@ -69,6 +69,7 @@ Tools that measure, audit, or optimize AEO performance.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free tool from HubSpot for AI search assessment.
 - [Bluefish AI](https://www.bluefish.ai) — Brand intelligence layer for AI conversations.
 - [Athena](https://www.askathena.ai) — Generative search analytics platform.
+- [LLM Pulse](https://llmpulse.ai) — AI search platform tracking brand visibility, mentions, citations and share of voice across ChatGPT, Perplexity, Gemini and Google AI Overviews.
 
 ## Schema & Structured Data
 
