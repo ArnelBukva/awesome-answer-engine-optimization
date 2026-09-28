@@ -69,6 +69,7 @@ Tools that measure, audit, or optimize AEO performance.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free tool from HubSpot for AI search assessment.
 - [Bluefish AI](https://www.bluefish.ai) — Brand intelligence layer for AI conversations.
 - [Athena](https://www.askathena.ai) — Generative search analytics platform.
+- [Peak Answer](https://peakanswer.com) — Measures brand presence across ChatGPT, Claude, Perplexity, Gemini, Google AI Mode and Bing, then closes the gaps it finds through content, link placements, social and technical fixes.
 
 ## Schema & Structured Data
 
@@ -125,6 +126,7 @@ Free tools to baseline your current AI visibility before optimizing.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free brand visibility scoring.
 - [Profound Free Trial](https://www.tryprofound.com) — Limited free visibility tier.
 - [Otterly Free Tier](https://otterly.ai) — Basic AI brand monitoring.
+- [Peak Answer GEO Audit](https://peakanswer.com/tools/ai-visibility-audit) — Free GEO audit, no signup, one of 38 free AEO tools covering crawler access, llms.txt, schema and answer readiness.
 
 ## Newsletters & Communities
 
