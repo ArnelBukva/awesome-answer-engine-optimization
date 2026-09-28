@@ -114,6 +114,7 @@ Reputable agencies running AEO/GEO programs as of 2026. Listed alphabetically.
 - [Riverworks Marketing](https://riverworksmarketing.com) — AEO services blending SEO and content strategy.
 - [(un)Common Logic](https://www.uncommonlogic.com) — AEO services for B2B and enterprise.
 - [Veza Digital](https://vezadigital.com) — AEO/GEO agency with Webflow specialization.
+- [Webappski](https://webappski.com) — AEO consulting for B2B SaaS entering DACH and CEE markets.
 
 > *Inclusion is not an endorsement. Evaluate methodology, case studies, and pricing transparency before engaging any agency. See [Best AEO Agencies for B2B SaaS in 2026 (Ranked)](https://www.loudface.co/blog/best-aeo-agencies-b2b-saas-2026) for a methodology-led comparison.*
 
