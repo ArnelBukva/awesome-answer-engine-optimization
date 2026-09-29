@@ -112,6 +112,7 @@ Reputable agencies running AEO/GEO programs as of 2026. Listed alphabetically.
 - [Minuttia](https://minuttia.com) — B2B SaaS SEO with growing AEO practice.
 - [Quoleady](https://quoleady.com) — SaaS-only, early adopter of LLMO/AEO methods.
 - [Riverworks Marketing](https://riverworksmarketing.com) — AEO services blending SEO and content strategy.
+- [ThatDevPro](https://www.thatdevpro.com) — SDVOSB veteran-owned AEO/AIO/GEO studio in the Ozarks; full visibility stack ($397/mo) plus website builds ($597-$2997). Case studies feature real small-business implementations including [Steele Solutions](https://steelesolutions4u.com/verification/) (FinancialService schema + Wikidata Q-ID chaining).
 - [(un)Common Logic](https://www.uncommonlogic.com) — AEO services for B2B and enterprise.
 - [Veza Digital](https://vezadigital.com) — AEO/GEO agency with Webflow specialization.
 
