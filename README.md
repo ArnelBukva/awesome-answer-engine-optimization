@@ -125,6 +125,7 @@ Free tools to baseline your current AI visibility before optimizing.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free brand visibility scoring.
 - [Profound Free Trial](https://www.tryprofound.com) — Limited free visibility tier.
 - [Otterly Free Tier](https://otterly.ai) — Basic AI brand monitoring.
+- [SagBot](https://sagbot.app) — Free agent-readiness and answer-readiness scores for any domain, explaining each failing check with a copy-paste fix.
 
 ## Newsletters & Communities
 
