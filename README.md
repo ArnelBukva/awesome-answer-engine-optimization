@@ -125,6 +125,7 @@ Free tools to baseline your current AI visibility before optimizing.
 - [HubSpot AI Search Grader](https://www.hubspot.com/ai-search-grader) — Free brand visibility scoring.
 - [Profound Free Trial](https://www.tryprofound.com) — Limited free visibility tier.
 - [Otterly Free Tier](https://otterly.ai) — Basic AI brand monitoring.
+- [Sonnetpilot AI Crawler Checker](https://sonnetpilot.com/tools/ai-crawler-checker) — Free, no sign-up: checks robots.txt against 14 AI search and training crawlers, plus noindex/noai rules, JavaScript-only pages and llms.txt.
 
 ## Newsletters & Communities
 
